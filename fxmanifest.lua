@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Shootalot#5812'
-description 'sl-electrician: Electrician Job Script (Started Development - January 28th, 2022)'
+description 'sl-electrician: Electrician Job Script (Started Development - January 28th, 2023)'
 version '1.0RELEASE'
 
 shared_script 'config.lua'
