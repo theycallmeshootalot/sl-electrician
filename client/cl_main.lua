@@ -203,7 +203,9 @@ RegisterNetEvent('sl-electrician:client:endtask', function()
     if isDoingJob == true then 
         RemoveBlip(TaskBlip)
         isDoingJob = false
-        QBCore.Functions.Notify("You have successfully ended your task", "info")
+        QBCore.Functions.Notify("You have successfully ended your task", "success")
+    else
+        QBCore.Functions.Notify("You do not have an active task", "error")
     end
 end)
 
