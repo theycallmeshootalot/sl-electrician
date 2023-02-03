@@ -10,7 +10,6 @@ AddEventHandler('onResourceStart', function(resourceName)
     end
 end)
 
-
 AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
     PlayerJob = QBCore.Functions.GetPlayerData().job
     ElectricianApply()
@@ -222,7 +221,7 @@ RegisterNetEvent('sl-electrician:client:requestwork', function()
 
     
     radialmenut = exports['qb-radialmenu']:AddOption({
-        id = 'gopostal',
+        id = 'electrician',
         title = 'Get Task',
         icon = 'hammer',
         type = 'client',
@@ -231,7 +230,7 @@ RegisterNetEvent('sl-electrician:client:requestwork', function()
     })
 
     radialmenuet = exports['qb-radialmenu']:AddOption({
-        id = 'gopostal',
+        id = 'electrician',
         title = 'End Task',
         icon = 'x',
         type = 'client',
